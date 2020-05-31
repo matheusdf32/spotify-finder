@@ -1,0 +1,41 @@
+{
+  "name": "Spotify finder for Youtube",
+  "version": "0.8",
+  "description": "YTtoSPOTIFY",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "background"
+  ],
+  "web_accessible_resources": [
+    "options.html"
+  ],
+  "options_page": "options.html",
+  "background": {
+    "matches": [
+      "*://*.youtube.com/*"
+    ],
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/search512.png",
+      "32": "images/search512.png",
+      "48": "images/search512.png",
+      "128": "images/search512.png",
+      "512": "images/search512.png"
+    }
+  },
+  "icons": {
+    "16": "images/search512.png",
+    "32": "images/search512.png",
+    "48": "images/search512.png",
+    "128": "images/search512.png",
+    "512": "images/search512.png"
+  },
+  "manifest_version": 2
+}
