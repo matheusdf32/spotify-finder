@@ -3,11 +3,11 @@ Chrome extension for finding songs in spotify via the tab open in your chrome
 
 How to use:
 
-#Method: Chrome Store
+### Method: Chrome Store
 
   Download extension at: <the extension link for chrome store is not available, the extension is being revised>
 
-#Method: Downloading from github (too much work just for testing, don't do it unless you want to code)
+### Method: Downloading from github (too much work just for testing, don't do it unless you want to code)
 
   Unzip and Follow https://developer.chrome.com/extensions/getstarted#manifest to import it in chrome, you don't need to create 
 
@@ -25,7 +25,7 @@ How to use:
 
   * The redirect url is the chrome's extension id, you can find it at: chrome://extensions
 
-#And then:
+### And then:
 
   Log in to spotify by clicking the extension with your right mouse button and going to Options
 
@@ -33,7 +33,7 @@ How to use:
 
 
 
-##FAQ:
+## FAQ:
 
 1- Why does it log off all the time?
   R: It logs off after an hour, its spotify's limitation to the auth method, without a server-secret it doesn't refresh spotify tokens. Link: https://developer.spotify.com/documentation/general/guides/authorization-guide/#implicit-grant-flow
